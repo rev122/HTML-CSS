@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>vai mudar ein</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/imagem-p.png">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-m.png">
+        <img src="imagens/imagem-g.png" alt="img grande">
+    </picture>
+    <p>aprender audio</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/tasty-waves.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

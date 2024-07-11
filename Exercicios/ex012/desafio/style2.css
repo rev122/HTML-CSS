@@ -1,0 +1,12 @@
+@charset "UFT-8";
+
+body{background-color: rgb(170, 170, 170);
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(104, 13, 122);
+}
+p{
+    text-align: center;
+}
